@@ -7,7 +7,7 @@ const TaskSchema = new Schema({
     fecha: { type: String, required: true},
     hora: { type: String, required: true},
     lugar: { type: String, required: true},
-    cantidad: { type: String, required: true},
+    cantidad: { type: Number, required: true},
     detalle: { type: String, required: true}
 });
 
